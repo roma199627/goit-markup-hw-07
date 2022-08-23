@@ -147,13 +147,12 @@ body {
 .header-two {
   border-bottom: 1px solid #ECECEC;
 }
-
-.header-nav {
+.header-two .container {
   display: flex;
   align-items: center;
 }
 
-.header-two .container {
+.header-nav {
   display: flex;
   align-items: center;
 }
@@ -830,11 +829,6 @@ body {
   color: #FFFFFF;
 }
 
-.footer .container {
-  display: flex;
-}
-
-/* footer-two */
 .footer-two-logo {
   font-family: "Raleway";
   font-style: normal;
