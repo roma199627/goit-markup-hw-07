@@ -532,7 +532,7 @@ body {
   padding-bottom: 30px;
 }
 
-.komanda-link {
+.komanda__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -562,8 +562,8 @@ body {
   margin-left: 0px;
 }
 
-.komanda-link:hover,
-.komanda-link:focus {
+.komanda__link:hover,
+.komanda__link:focus {
   background-color: #2196F3;
   fill: #FFFFFF;
 }
