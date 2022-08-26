@@ -83,6 +83,15 @@ align-items: center;
     padding-bottom: 32px;
     transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
     position: relative;
+    &:hover
+{
+    color: var(--hover-footer-color) ;
+
+}
+&:focus
+{
+    color: var(--hover-footer-color);  
+}
     }
     .connect__mail, .connect__tel   
 {
@@ -111,15 +120,7 @@ transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
  
 
 
-.havigation__link:hover
-{
-    color: var(--hover-footer-color) ;
 
-}
-.havigation__link:focus
-{
-    color: var(--hover-footer-color);  
-}
 
 .connect__mail link
 {

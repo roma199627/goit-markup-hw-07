@@ -126,6 +126,12 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
+.havigation__link:hover {
+  color: var(--hover-footer-color);
+}
+.havigation__link:focus {
+  color: var(--hover-footer-color);
+}
 
 .connect__mail, .connect__tel {
   font-weight: 500;
@@ -150,14 +156,6 @@ body {
 .connect__tel:focus {
   fill: #2196F3;
   color: #2196F3;
-}
-
-.havigation__link:hover {
-  color: var(--hover-footer-color);
-}
-
-.havigation__link:focus {
-  color: var(--hover-footer-color);
 }
 
 .connect__mail link {
@@ -218,6 +216,16 @@ body {
   border-radius: 4px;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.menu__btn:hover {
+  background: #2196F3;
+  color: var(--fonfocus-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.menu__btn:focus {
+  background: #2196F3;
+  color: var(--fonfocus-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .menu__item {
   margin-right: 8px;
@@ -255,23 +263,9 @@ body {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.works__sct:hover,
-.works__sct:focus {
+.works__sct:hover, .works__sct:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   display: block;
-}
-
-.menu__btn:hover {
-  background: #2196F3;
-  color: var(--fonfocus-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.menu__btn:focus {
-  background: #2196F3;
-  color: var(--fonfocus-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .menu {
@@ -541,6 +535,10 @@ body {
   justify-content: center;
   fill: #AFB1B8;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.komanda__link:hover, .komanda__link:focus {
+  background-color: #2196F3;
+  fill: #FFFFFF;
 }
 
 .komanda__icon {
