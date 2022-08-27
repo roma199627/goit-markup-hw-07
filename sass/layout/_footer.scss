@@ -148,4 +148,59 @@ fill: #FFFFFF;
  padding-left: 16px;
 }
 
+.email-title{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: #FFFFFF;
+
+margin-bottom: 20px;
+}
+
+
+.footer-input{
+   color: #FFFFFF;
+    width:358px ;
+    height:50px ;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+background: #2F303A;
+outline: none;
+padding-left: 16px;
+}
+.email-btn{
+position: absolute;
+
+width: 200px;
+height: 50px;
+background: #2196F3;
+border-radius: 4px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+padding: 10px 62px 10px 29px;
+color: #FFFFFF;
+border: none;
+margin-left: 12px;
+}
+.email-icon{
+
+position:relative ;
+
+left: 148px;
+top: 10px;
+fill: #FFFFFF;
+margin-left: 10px;
+
+
+
+}
+.footer-email{
+
+display: flex;
+margin-left: 105px;
+
+}
+
 
