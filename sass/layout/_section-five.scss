@@ -1,7 +1,4 @@
-.section-five__titles{
-    text-align: center;
-    
-}
+
 .section-five__list{
     display: flex;
     margin-top: 50px;
@@ -27,6 +24,7 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+    text-align: center;
     color:var(--title-color)
     }
     .section-five__title{
@@ -82,12 +80,7 @@
         .komanda__item:last-child{
           margin-left: 0px;
         }
-        .komanda__link:hover,
-        .komanda__link:focus{
-          background-color: #2196F3;
-          fill: #FFFFFF;
-         
-        }
+        
         .komanda__item:last-child{
             margin-right: 0px ;
         }

@@ -1,33 +1,26 @@
 .benefits-item{
     width: 100%;
     height: 100%;
+    width: 270px ;
+    height: 120px ;
     background-color:#F5F4FA  ;
     display: flex;
     align-items: center;
      justify-content: center;
      fill: #AFB1B8;
+     margin-bottom: 30px;
     }
-    .benefits-item{
-        width: 270px ;
-        height: 120px ;
-        margin-bottom: 30px;
-    }
+   
     .benefits-link:hover,
     .benefits-link:focus{
         background: #F5F4FA;
       border-radius: 4px;
      
     }
-   
     .benefits-item:last-child {
         margin-right: 0px;
     }
    
-
-
-
-
-
 .backdrop{
 width: 100%;
 height: 100%;
@@ -65,12 +58,13 @@ top: 8px;
 right: 8px;
 transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1), 
 fill 250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-.modal-close-btn:focus,
-.modal-close-btn:hover
+&:focus,
+&:hover
 {
 fill: #2196F3;
 }
+}
+
 .backdrop .is-hidden .modal{
     transform: translate(-50%,-50%) scale(1);
 }
@@ -91,11 +85,11 @@ fill: #2196F3;
  padding-left: 42px;
  transition: background  250ms  cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
+    &:focus{
+        border-color:  #2196F3;   
+    }
 }
-.model-input:focus{
-    border-color:  #2196F3; 
-   
-}
+
 .model-label{
     font-weight: 400;
     font-size: 12px;
@@ -113,10 +107,11 @@ fill: #2196F3;
     resize: none;
     padding: 12px 16px;
     outline: none;
+    &:focus{
+        border-color:  #2196F3; 
+    }
 }
-.model-text:focus{
-    border-color:  #2196F3; 
-}
+
 .modal-icon{
     position: absolute;
     left: 12px;
