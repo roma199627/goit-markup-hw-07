@@ -333,6 +333,7 @@ h1, h2, h3, p, ul {
 }
 
 .works__link {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
