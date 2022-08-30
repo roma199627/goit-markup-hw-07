@@ -16,7 +16,16 @@
     padding-top: 94px;
  }
  
- 
+ .section-three-item-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color:var(--title-color);
+    margin-bottom: 10px;
+    
+    text-transform: uppercase;
+ }
  .section-three-title{
      text-align: center;
      padding-top: 0px;
@@ -37,4 +46,13 @@
  }
  .section-three-item:last-child{
      margin-right: 0px;}
-     
+
+     .section-three-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: #212121;
+         
+        
+     }

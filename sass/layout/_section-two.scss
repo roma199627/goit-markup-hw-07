@@ -15,7 +15,17 @@
     background-position: center;
     background-size: cover;
   }
+  .section-two-title{
   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color:var(--fonfocus-color) ; 
+   text-transform: uppercase;
+   max-width: 696px;
+  margin: 0 auto;
+   
+}
 
 .section-two-btn{
 font-family: 'Roboto';
